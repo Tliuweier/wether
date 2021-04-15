@@ -1,0 +1,78 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "lovetalk",
+          "pathName": "pages/lovetalk/lovetalk",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/frameCamera/frameCamera",
+          "pathName": "pages/frameCamera/frameCamera",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "天气",
+          "pathName": "pages/weather/weather",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/echartView/echartView",
+          "pathName": "pages/echartView/echartView",
+          "query": "location=guangzhou",
+          "scene": null
+        },
+        {
+          "name": "空气质量",
+          "pathName": "pages/airQuality/airQuality",
+          "query": "location=guangzhou&locationName=广州市",
+          "scene": null
+        },
+        {
+          "name": "pages/poster/poster",
+          "pathName": "pages/poster/poster",
+          "query": "location=guangzhou&text=多云&code=4&temperature=27",
+          "scene": null
+        },
+        {
+          "name": "pages/waterfall/waterfall",
+          "pathName": "pages/waterfall/waterfall",
+          "query": "location=guangzhou&text=多云&code=4&temperature=27",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

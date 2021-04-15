@@ -1,0 +1,38 @@
+
+<wxs src="../../util/utilFun.wxs" module="foo" />
+<view class="poster-bg">
+  <view class="proter-picture">
+    <image style="width:100%;height:100%;border-radius:20rpx;"
+      src="https://api.xygeng.cn/Bing/">
+    </image>
+    <view class="weather-content">
+      <text class="temperature-text">{{temperature}}°</text>
+      <image mode="widthFix" style="width: 40rpx;height: 40rpx;margin:0 10rpx;" src="{{foo.getImgUrl(code)}}"></image>
+      {{text}}
+    </view>
+  </view>
+
+
+  <view class="poster-content">
+    <view class="verse-text">{{poetry}}</view>
+    <view class="location-text">
+      <view style="overflow:hidden;overflow-wrap: normal;">{{location}}</view>
+      <view>{{foo.getMonthDay(date)}}</view>
+    </view>
+
+  </view>
+
+  <view class="qrcode-img">
+    <image style="width:100%;height:100%;" src="https://lovetalkservice-4gzhpcul1a50833f-1305027853.tcloudbaseapp.com/image/qrcode.png?sign=c0e1f0bf25420584295a8922ca5a89ec&t=1617461871"></image>
+  </view>
+</view>
+
+<view class="canvas-box">
+          <canvas  style="width: 375px;height: 667px;position:fixed;top:9999px" canvas-id="mycanvas"/>
+      </view> 
+      <!-- <image wx:if="{{imagePath}}" src="{{imagePath}}"></image> -->
+<view class="loadDown-btn" bindtap="saveImage">
+  保存图片
+  
+</view>
+

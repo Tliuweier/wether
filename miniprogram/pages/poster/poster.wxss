@@ -1,0 +1,96 @@
+/* pages/poster/poster.wxss */
+.poster-bg{
+  background: #fff;
+  width: 565rpx;
+  margin: 14rpx auto 0;
+  padding: 14rpx;
+  font-size: 28rpx;
+  border-radius:20rpx;
+}
+.proter-picture{
+  width: 100%;
+  height: 400rpx;
+  position: relative;
+  /* border-radius: ; */
+}
+.poster-content{
+  display: flex;
+  flex-direction: row;
+  font-size: 25rpx;
+  margin-top: 50rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #fafafa;
+}
+.verse-text{
+  flex: 1;
+  line-height: 1.5;
+}
+.location-text{
+  width: 210rpx;
+  color: #959595;
+  font-size: 25rpx;
+  text-align: right;
+  line-height: 1.5;
+}
+.loadDown-btn{
+  background: #4295ee;
+  color: #fff;
+  width: 565rpx;
+  margin: 30rpx auto 0;
+  height: 78rpx;
+  border-radius: 20rpx;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 30rpx;
+}
+.weather-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  position: absolute;
+  top: 0;
+  right: 2%;
+}
+.temperature-text{
+  font-size: 46rpx;
+  font-stretch: ultra-condensed;
+}
+
+.qrcode-img{
+  width: 100%;
+  height: 200rpx;
+}
+.qrcode-content-bg{
+  background: #07c160;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.search-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 417rpx;
+  font-size: 30rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  color: #949494;
+  height: 90rpx;
+}
+.weixin-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 36rpx;
+}
+.canvas-box{
+  visibility: hidden;
+}
